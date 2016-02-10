@@ -1,0 +1,43 @@
+body {
+    background-image:url("background.png");
+	color:black;
+
+}
+
+h1{
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+#formwrap {
+	position: absolute;
+	width: 100%;
+	top: 30%;
+	margin-top: -50px;
+	text-align: center;
+}
+
+#form {
+	margin: auto;
+	width: 200px;
+	height: 100px;
+}
+
+#submit {
+	margin: 5px;
+}
+
+
+#container {
+	margin: auto;
+	position: absolute;
+	left: 0%; 
+	right: 0%;
+	width: 900px;
+	height: 100%;
+	background-color: black;
+	color: white;
+	
+}
