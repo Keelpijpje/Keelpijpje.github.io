@@ -1,7 +1,6 @@
 body {
     background-image:url("https://cloud.githubusercontent.com/assets/17159697/12947027/e2d61f5e-cff8-11e5-95c9-575b3865a988.png");
 	color:black;
-
 }
 
 h1{
@@ -29,6 +28,27 @@ h2 {
 	margin: 5px;
 }
 
+#rood {
+	color: red;
+	text-align: center;
+	background: white;
+	margin: 2px;
+	z-index: 1;
+	position: relative;
+	left: 0%;
+	right: 0%;
+}
+
+#groen {
+	color: green;
+	background: white;
+	margin: 0px;
+	text-align: center;
+	z-index: 1;
+	position: relative;
+	left: 0%;
+	right: 0px;
+}
 
 #container {
 	margin: auto;
@@ -39,5 +59,19 @@ h2 {
 	height: 100%;
 	background-color: black;
 	color: white;
-	vertical-align:top;
+	z-index: -1;
+}
+
+#topcontainer {
+	margin: auto;
+	margin-top:-1%;
+	width: 1000px;
+	height: 80px;
+	display: inline-block;
+	left: 0%;
+	right: 0%;
+	background-color: green;
+	position: absolute;
+	color: white;
+	z-index: 0;
 }
