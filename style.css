@@ -75,11 +75,3 @@ h2 {
 	color: white;
 	z-index: 0;
 }
-
-#dropdown {
-	margin: auto;
-	display: block;
-	width: 10px;
-	height: 10px;
-	z-index: 1;
-}
