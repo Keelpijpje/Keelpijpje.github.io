@@ -50,7 +50,7 @@ h2 {
 	right: 0px;
 }
 
-#container {
+.container {
 	margin: auto;
 	position: absolute;
 	left: 0%; 
@@ -62,7 +62,7 @@ h2 {
 	z-index: -1;
 }
 
-#topcontainer {
+.topcontainer {
 	margin: auto;
 	margin-top:-1%;
 	width: 1000px;
