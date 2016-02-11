@@ -1,5 +1,7 @@
 body {
     background-image:url("https://cloud.githubusercontent.com/assets/17159697/12947027/e2d61f5e-cff8-11e5-95c9-575b3865a988.png");
+    background-size: auto;
+    background-repeat: no-repeat;
 	color:black;
 }
 
@@ -55,7 +57,7 @@ h2 {
 	position: absolute;
 	left: 0%; 
 	right: 0%;
-	width: 1000px;
+	max-width: 1000px;
 	height: 100%;
 	background-color: black;
 	color: white;
@@ -63,15 +65,80 @@ h2 {
 }
 
 .topcontainer {
-	margin: auto;
+	margin: 0 auto;
 	margin-top:-1%;
-	width: 1000px;
-	height: 100px;
-	display: inline-block;
+	max-width: 1000px;
+	height: 110px;
 	left: 0%;
 	right: 0%;
 	background-color: blue;
 	position: absolute;
 	color: white;
 	z-index: 0;
+}
+
+.topcontainer h1 {
+	color: white;
+	text-decoration: underline;
+	text-align: center;
+}
+.topcontainer ul {
+	max-width: 800px;
+}
+
+.topcontainer ul li {
+	text-align: center;
+	display: inline-block;
+}
+
+.topcontainer ul li a {
+	color: white;
+	border: 1px solid white;
+	border-radius: 3px;
+	margin: 0 10px 0 85px;
+	padding: 10px 10px;
+	background: #444;
+	text-decoration: none;
+
+}
+
+.topcontainer ul li a:hover {
+	background: #777;
+}
+
+.topcontainer .dropdown { 
+	display: none;
+	margin-top: -15px;
+	margin-right: 20px;
+	text-align: center;
+	padding: 0px;
+}
+
+.topcontainer .dropdown a {
+	color: orange;
+}
+
+.topcontainer .dropdown a:hover {
+	color: yellow;
+}
+
+.topcontainer .dropdown-content {
+	display: none;
+	background-color: white;
+	color: gray;
+	max-width: 100px;
+	box-shadow: 3px 3px 0px 0px;
+	box-shadow-color: black;
+	padding: 10px;
+	margin-left: 42%;
+}
+
+.topcontainer .dropdown a:hover .dropdown-content {
+	display: block;
+}
+
+@media all and (max-width: 850px){
+	.topcontainer {height: 110px;}
+	.topcontainer ul { display:none;}
+	.topcontainer .dropdown {display: block;}
 }
