@@ -3,6 +3,7 @@ body {
 	background-size: auto;
 	background-repeat: no-repeat;
 	color:black;
+	background-position: static;
 }
 
 h1{
