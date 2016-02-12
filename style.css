@@ -133,11 +133,9 @@ h2 {
 	margin-left: 42%;
 }
 
-#dropdownhover {
+.topcontainer .dropdown a:hover .dropdown-content {
 	display: block;
 }
-
-
 
 @media all and (max-width: 850px){
 	.topcontainer {height: 110px;}
