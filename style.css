@@ -137,9 +137,7 @@ h2 {
 	display: block;
 }
 
-.topcontainer, .dropdown a:hover, .dropdown-content {
-	display: block;
-}
+
 
 @media all and (max-width: 850px){
 	.topcontainer {height: 110px;}
