@@ -133,6 +133,10 @@ h2 {
 	margin-left: 42%;
 }
 
+#dropdownhover {
+	display: block;
+}
+
 .topcontainer, .dropdown a:hover, .dropdown-content {
 	display: block;
 }
