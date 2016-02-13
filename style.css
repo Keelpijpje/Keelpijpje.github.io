@@ -83,61 +83,6 @@ h2 {
 	text-decoration: underline;
 	text-align: center;
 }
-#cssmenu {
-	max-width: 800px;
-	background: #000;
-        padding: 8px 0;
-}
-#cssmenu:before {
-  content: '';
-  display: block;
-}
-#cssmenu:after {
-  content: '';
-  display: table;
-  clear: both;
-}
-#cssmenu ul {
-  list-style-type: none;
-  position: relative;
-  display: block;
-  margin: 0;
-  padding: 0;
-  border-bottom: 1px solid #7ab900;
-}
-#cssmenu ul:before {
-  content: '';
-  display: block;
-}
-#cssmenu ul:after {
-  content: '';
-  display: table;
-  clear: both;
-}
-#cssmenu li {
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-}
-#cssmenu li a {
-  color: #A79787;
-  text-decoration: none;
-  height: 24px;
-  padding: 10px 10px;
-  font-weight: normal;
-}
-#cssmenu li:hover,
-#cssmenu .active {
-  text-decoration: none;
-  border-bottom: 2px solid #7ab900;
-}
-#cssmenu li:hover a {
-  color: #fff;
-}
-#cssmenu .active a {
-  color: #fff;
-  font-weight: 700;
-}
 
 .topcontainer .dropdown { 
 	display: none;
