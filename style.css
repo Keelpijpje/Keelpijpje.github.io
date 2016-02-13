@@ -101,7 +101,7 @@ h2 {
 }
 #cssmenu ul {
   list-style-type: none;
-  position: absolute;
+  position: relative;
   display: block;
   margin: 0;
   padding: 0;
