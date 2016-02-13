@@ -85,6 +85,7 @@ h2 {
 }
 #cssmenu {
 	max-width: 800px;
+	width: auto;
 	background: #000;
         padding: 8px 0;
         margin-left: 100px;
