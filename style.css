@@ -85,28 +85,43 @@ h2 {
 }
 .topcontainer ul {
 	max-width: 800px;
+	margin: 0;
+        padding: 0;
+        border-bottom: 1px solid #7ab900;
+        zoom: 1;
+        list-style-type: none;
+        position: relative;
+        display: block;
 }
 
 .topcontainer ul li {
 	text-align: center;
 	display: inline-block;
+	float: left;
+        margin: 0;
+        padding: 0;
 }
 
 .topcontainer ul li a {
-	color: white;
-	border: 1px solid white;
 	border-radius: 3px;
 	margin: 0 10px 0 85px;
 	padding: 10px 10px;
-	background: #444;
 	text-decoration: none;
-
+	float: left;
+        color: #A79787;
+        height: 24px;
+        font-weight: normal;
 }
 
-.topcontainer ul li a:hover {
-	background: #777;
+.topcontainer ul li:hover,
+.topcontainer ul .active {
+  text-decoration: none;
+  border-bottom: 2px solid #7ab900;
 }
 
+.topcontairer ul li:hover a {
+  color: #fff;
+}
 .topcontainer .dropdown { 
 	display: none;
 	margin-top: -15px;
