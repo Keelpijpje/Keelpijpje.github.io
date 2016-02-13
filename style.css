@@ -85,6 +85,7 @@ h2 {
 }
 #cssmenu {
 	max-width: 80%;
+	margin-left: 10%;
 	background: #000;
         padding: 8px 0;
 }
@@ -177,6 +178,6 @@ h2 {
 
 @media all and (max-width: 850px){
 	.topcontainer {height: 110px;}
-	.topcontainer ul { display:none;}
+	#cssmenu { display:none;}
 	.topcontainer .dropdown {display: block;}
 }
