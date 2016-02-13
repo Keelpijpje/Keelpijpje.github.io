@@ -118,7 +118,7 @@ h2 {
 }
 #cssmenu li {
   display: inline-block;
-  position: relative;
+  position: absolute;
   margin: 0;
   padding: 0;
 }
