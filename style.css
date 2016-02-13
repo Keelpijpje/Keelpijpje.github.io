@@ -87,6 +87,7 @@ h2 {
 	max-width: 800px;
 	background: #000;
         padding: 8px 0;
+        margin-left: 100px;
 }
 #cssmenu:before {
   content: '';
