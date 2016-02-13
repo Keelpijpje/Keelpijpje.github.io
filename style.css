@@ -114,7 +114,7 @@ h2 {
 }
 
 .topcontainer ul li:hover,
-.topcontainer ul .active {
+.topcontainer ul li .active {
   text-decoration: none;
   border-bottom: 2px solid #7ab900;
 }
@@ -122,6 +122,11 @@ h2 {
 .topcontairer ul li:hover a {
   color: #fff;
 }
+.topcontainer ul li .active a {
+  color: #fff;
+  font-weight: 700;
+}
+
 .topcontainer .dropdown { 
 	display: none;
 	margin-top: -15px;
