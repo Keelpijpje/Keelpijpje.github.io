@@ -85,7 +85,7 @@ h2 {
 }
 /*CSS menu*/
 #cssmenu {
-	max-width: 80%;
+	width: 80%;
 	margin-left: 10%;
 	background: #000;
         padding: 8px 0;
