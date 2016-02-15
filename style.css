@@ -89,6 +89,7 @@ h2 {
 	margin-left: 10%;
 	background: #000;
         padding: 8px 0;
+        height: 110px;
 }
 #cssmenu:before {
   content: '';
