@@ -151,11 +151,10 @@ h2 {
 	max-width: 80px;
 	margin-bottom: 2px;
 }
-#cssmenu .signin-login .signin,
-#cssmenu .signin-login .login {
+#cssmenu .signin-login tr td .signin,
+#cssmenu .signin-login tr td .login {
 	width: 50%;
 	display: block;
-	background-color: #7ab900;
 }
 #cssmenu .signin-login .signin a,
 #cssmenu .signin-login .login a {
