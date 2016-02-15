@@ -151,17 +151,19 @@ h2 {
 	max-width: 80px;
 	margin-bottom: 2px;
 }
-#cssmenu .signin-login tr td .signin,
+#cssmenu .signin-login tr td .signin {
+	width: 60%;
+	display: block;
+}
 #cssmenu .signin-login tr td .login {
-	width: 50%;
+	width: 40%;
 	display: block;
 }
 #cssmenu .signin-login .signin a,
 #cssmenu .signin-login .login a {
-	color: #A79787;
+	color: #7ab900;
 	text-decoration: none;
 	height: 24px;
-	padding: 10px 10px;
 	font-weight: normal;
 }
 .topcontainer .dropdown { 
