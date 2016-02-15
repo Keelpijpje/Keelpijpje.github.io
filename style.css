@@ -100,7 +100,7 @@ h2 {
   display: table;
   clear: both;
 }
-#cssmenu tr ul {
+#cssmenu tr td ul {
   list-style-type: none;
   position: relative;
   display: block;
@@ -113,54 +113,54 @@ h2 {
   padding: 0;
   border-bottom: 1px solid #7ab900;
 }
-#cssmenu tr ul:before {
+#cssmenu tr td ul:before {
   content: '';
   display: block;
 }
-#cssmenu tr ul:after {
+#cssmenu tr td ul:after {
   content: '';
   display: table;
   clear: both;
 }
-#cssmenu tr li {
+#cssmenu tr td li {
   display: inline-block;
   margin: 0;
   padding: 0;
 }
-#cssmenu tr li a {
+#cssmenu tr td li a {
   color: #A79787;
   text-decoration: none;
   height: 24px;
   padding: 10px 10px;
   font-weight: normal;
 }
-#cssmenu tr li:hover,
+#cssmenu tr td li:hover,
 #cssmenu .active {
   text-decoration: none;
   border-bottom: 2px solid #7ab900;
 }
-#cssmenu tr li:hover a {
+#cssmenu tr td li:hover a {
   color: #fff;
 }
-#cssmenu tr .active a {
+#cssmenu tr td .active a {
   color: #fff;
   font-weight: 700;
 }
-#cssmenu tr .signin-login {
+#cssmenu tr td .signin-login {
 	border: 0;
 	margin-left: 80%;
 	width: 80px;
 }
-#cssmenu tr .signin-login tr td .signin {
+#cssmenu tr td .signin-login tr td .signin {
 	width: 60%;
 	display: block;
 }
-#cssmenu tr .signin-login tr td .login {
+#cssmenu tr td .signin-login tr td .login {
 	width: 40%;
 	display: block;
 }
-#cssmenu tr .signin-login .signin a,
-#cssmenu tr .signin-login .login a {
+#cssmenu tr td .signin-login .signin a,
+#cssmenu tr td .signin-login .login a {
 	color: #7ab900;
 	text-decoration: none;
 	height: 24px;
