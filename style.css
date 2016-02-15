@@ -90,6 +90,7 @@ h2 {
 	background: #000;
         padding: 8px 0;
         height: 20px;
+        margin-bottom: 5px;
 }
 #cssmenu:before {
   content: '';
@@ -131,6 +132,7 @@ h2 {
   color: #A79787;
   text-decoration: none;
   height: 24px;
+  padding: 10px 10px;
   font-weight: normal;
 }
 #cssmenu tr td li:hover,
