@@ -151,14 +151,14 @@ h2 {
 	max-width: 80px;
 	margin-bottom: 2px;
 }
-#cssmenu .signin,
-#cssmenu .login {
+#cssmenu .signin-login .signin,
+#cssmenu .signin-login .login {
 	width: 50%;
 	display: block;
 	background-color: #7ab900;
 }
-#cssmenu .signin a,
-#cssmenu .login a {
+#cssmenu .signin-login .signin a,
+#cssmenu .signin-login .login a {
 	color: #A79787;
 	text-decoration: none;
 	height: 24px;
