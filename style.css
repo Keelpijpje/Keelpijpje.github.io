@@ -147,9 +147,8 @@ h2 {
 }
 #cssmenu .signin-login {
 	border: 0;
-	margin-left: 90%;
-	max-width: 80px;
-	margin-bottom: 2px;
+	margin-left: 80%;
+	width: 80px;
 }
 #cssmenu .signin-login tr td .signin {
 	width: 60%;
@@ -165,6 +164,7 @@ h2 {
 	text-decoration: none;
 	height: 24px;
 	font-weight: normal;
+	padding: 10px 10px;
 }
 .topcontainer .dropdown { 
 	display: none;
