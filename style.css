@@ -84,13 +84,12 @@ h2 {
 	text-align: center;
 }
 /*CSS menu*/
-.topcontainer #cssmenu {
+#cssmenu {
 	width: 80%;
 	margin-left: 10%;
 	background: #000;
         padding: 8px 0;
         height: 20px;
-        margin-bottom: 10px;
 }
 #cssmenu:before {
   content: '';
@@ -107,7 +106,7 @@ h2 {
   display: block;
   width: 320px;
   left: 50%;
-  margin-left: -160px;
+  margin-left: -160px; /*negatieve margin gelijk aan de helft van de breedte*/
   margin-right: 0;
   margin-top:0;
   margin-bottom: 0;
@@ -123,27 +122,27 @@ h2 {
   display: table;
   clear: both;
 }
-#cssmenu tr td li {
+#cssmenu tr td ul li {
   display: inline-block;
   margin: 0;
   padding: 0;
 }
-#cssmenu tr td li a {
+#cssmenu tr td ul li a {
   color: #A79787;
   text-decoration: none;
   height: 24px;
   padding: 10px 10px;
   font-weight: normal;
 }
-#cssmenu tr td li:hover,
-#cssmenu .active {
+#cssmenu tr td ul li:hover,
+#cssmenu ul li .active {
   text-decoration: none;
   border-bottom: 2px solid #7ab900;
 }
-#cssmenu tr td li:hover a {
+#cssmenu tr td ul li:hover a {
   color: #fff;
 }
-#cssmenu tr td .active a {
+#cssmenu tr td ul .active a {
   color: #fff;
   font-weight: 700;
 }
