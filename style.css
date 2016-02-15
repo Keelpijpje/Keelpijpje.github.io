@@ -84,7 +84,7 @@ h2 {
 	text-align: center;
 }
 /*CSS menu*/
-#cssmenu {
+.topcontainer #cssmenu {
 	width: 80%;
 	margin-left: 10%;
 	background: #000;
