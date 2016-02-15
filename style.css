@@ -147,6 +147,7 @@ h2 {
 }
 #cssmenu .signin-login {
 	border: 0;
+	float: right;
 }
 .topcontainer .dropdown { 
 	display: none;
