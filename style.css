@@ -204,7 +204,7 @@ h2 {
 	margin-left: 42%;
 }
 
-.topcontainer .dropdown a:hover .dropdown-content {
+.topcontainer .dropdown a:hover .dropdown-content > ul {
 	display: block;
 }
 
