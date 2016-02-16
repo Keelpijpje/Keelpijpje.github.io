@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html> 
+  <head> 
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <title>Sign up</title>
+  </head>
+
+  <body>
+
+     
+      <nav>
+        <div class="topcontainer">
+          <h1>Websiteforum</h1>
+          <table id='cssmenu'>
+            <tr>
+              <td style="width: 34%"><br/></td>
+              <td style="width: 32%">
+                <ul>
+                  <li><a href='index.html'><span>Home</span></a></li>
+                  <li><a href='#'><span>link 1</span></a></li>
+                  <li><a href='#'><span>link 2</span></a></li>
+                  <li><a href='#'><span>link 3</span></a></li>
+                  <li class='last'><a href='#'><span>link 4</span></a></li>
+                </ul>
+              </td>
+              <td style="width: 14%"><br/></td>
+              <td style="width: 20%">
+                <table class="signin-login">
+                  <tr>
+                    <td>
+                      <div class="signin">
+                        <a href="signup.php">sign up</a>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="login">
+                        <a href="login.php">login</a>
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+          <div class="dropdown">
+            <ul><a href="#"><i class="fa fa-bars fa-3x"></i></a>
+              <div class="dropdown-content">
+                <li>Sublink1</li>
+                <li>Sublink2</li>
+                <li>Sublink3</li>
+              </div>
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+      
+    <div class="container">
+     
+	 <div id="formwrap">
+        <h1> Sign up </h1>
+        <form id="form" action="signup.php" method="POST">
+            Username: <input type="text" name="makeuser" /><br/>
+			Email: <input type="text" name="makeemail" /><br/>
+            Password: <input type="password" name="makepass"/><br/>
+			Confirm password: <input type="password" name="makepass2"/><br/>
+          <input id= "submit" type="submit" value="Submit" name="submit" />
+        </form>
+      </div>
+
+     
+	</div>
+  </body>
+</html>
