@@ -89,7 +89,7 @@ h2 {
 	margin-left: 10%;
 	background: #000;
         padding: 8px 0;
-        max-height: 10px;
+        max-height: 20px;
         margin-bottom: 5px;
         border: 1px solid #fff;
 }
@@ -102,6 +102,10 @@ h2 {
   display: table;
   clear: both;
 }
+#cssmenu tr {
+	max-height: 20px;
+}
+
 #cssmenu tr td ul {
   list-style-type: none;
   position: relative;
