@@ -182,6 +182,7 @@ h2 {
 	margin-top: -15px;
 	text-align: center;
 	padding: 0px;
+	max-width: 100px;
 }
 
 .topcontainer .dropdown a {
