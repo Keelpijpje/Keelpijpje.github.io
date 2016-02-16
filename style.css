@@ -189,7 +189,7 @@ h2 {
 	color: orange;
 }
 
-.topcontainer .dropdown a:hover .dropdown-content{
+.topcontainer .dropdown a:hover, .dropdown-content{
 	color: yellow;
 	display: block;
 }
