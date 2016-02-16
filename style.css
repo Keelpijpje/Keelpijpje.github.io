@@ -157,8 +157,7 @@ h2 {
 }
 #cssmenu tr td .signin-login {
 	border: 0;
-	margin-left: 80%;
-	width: 80px;
+	width: 100%;
 	border: 1px solid #fff;
 }
 #cssmenu tr td .signin-login tr td .signin {
