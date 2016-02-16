@@ -204,7 +204,7 @@ h2 {
 }
 
 .topcontainer > .dropdown a:hover > .dropdown-content {
-	display: block;
+	display: list-item;
 }
 
 @media all and (max-width: 725px){
