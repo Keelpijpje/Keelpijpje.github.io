@@ -135,7 +135,7 @@ h2 {
   height: 24px;
   padding-bottom: 0;
   padding-left: 10px;
-  padding-right:10px;
+  padding-right: 10px;
   padding-top: 0px;
   font-weight: normal;
 }
@@ -161,6 +161,7 @@ h2 {
 	border: 1px solid #7ab900;
 	padding-left: 2px;
 	padding-right: 2px;
+	height: 24px;
 }
 #cssmenu tr td .signin-login tr td .login {
 	text-align: center;
@@ -168,6 +169,7 @@ h2 {
 	border: 1px solid #7ab900;
 	padding-left: 2px;
 	padding-right: 2px;
+	height: 24px;
 }
 #cssmenu tr td .signin-login .signin a,
 #cssmenu tr td .signin-login .login a {
