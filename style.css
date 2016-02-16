@@ -161,7 +161,7 @@ h2 {
 	border: 1px solid #7ab900;
 }
 #cssmenu tr td .signin-login tr td .login {
-	width: 40%;
+	width: 60%;
 	display: block;
 	border: 1px solid #294000;
 }
@@ -169,7 +169,6 @@ h2 {
 #cssmenu tr td .signin-login .login a {
 	color: #7ab900;
 	text-decoration: none;
-	height: 24px;
 	font-weight: normal;
 }
 .topcontainer .dropdown { 
