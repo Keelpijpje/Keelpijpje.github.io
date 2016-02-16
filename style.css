@@ -189,8 +189,9 @@ h2 {
 	color: orange;
 }
 
-.topcontainer .dropdown a:hover {
+.topcontainer .dropdown a:hover .dropdown-content{
 	color: yellow;
+	display: block;
 }
 
 .topcontainer .dropdown-content {
@@ -202,10 +203,6 @@ h2 {
 	box-shadow-color: black;
 	padding: 10px;
 	margin-left: 42%;
-}
-
-.dropdown .dropdown-content {
-	display: block;
 }
 
 @media all and (max-width: 725px){
