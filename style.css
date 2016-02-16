@@ -208,7 +208,7 @@ h2 {
 	display: block;
 }
 
-@media all and (max-width: 425px){
+@media all and (max-width: 625px){
 	.topcontainer {height: 110px;}
 	 #cssmenu { display:none;}
 	.topcontainer .dropdown {display: block;}
