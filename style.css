@@ -159,11 +159,15 @@ h2 {
 	width: 60%;
 	display: block;
 	border: 1px solid #7ab900;
+	padding-left: 2px;
+	padding-right: 2px;
 }
 #cssmenu tr td .signin-login tr td .login {
 	width: 60%;
 	display: block;
 	border: 1px solid #294000;
+	padding-left: 2px;
+	padding-right: 2px;
 }
 #cssmenu tr td .signin-login .signin a,
 #cssmenu tr td .signin-login .login a {
