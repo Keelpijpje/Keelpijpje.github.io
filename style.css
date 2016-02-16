@@ -182,7 +182,6 @@ h2 {
 	margin-top: -15px;
 	text-align: center;
 	padding: 0px;
-	max-width: 3em;
 }
 
 .topcontainer .dropdown a {
@@ -204,7 +203,7 @@ h2 {
 	margin-left: 42%;
 }
 
-.topcontainer .dropdown:hover .dropdown-content {
+.topcontainer .dropdown .dropdown-content ul:hover {
 	display: block;
 }
 
