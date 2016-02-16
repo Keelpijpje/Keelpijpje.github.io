@@ -88,7 +88,6 @@ h2 {
 	width: 80%;
 	margin-left: 10%;
 	background: #000;
-        border: 1px solid #fff;
 }
 #cssmenu:before {
   content: '';
@@ -155,15 +154,16 @@ h2 {
 #cssmenu tr td .signin-login {
 	border: 0;
 	width: 100%;
-	border: 1px solid #fff;
 }
 #cssmenu tr td .signin-login tr td .signin {
 	width: 60%;
 	display: block;
+	border: 1px solid #7ab900;
 }
 #cssmenu tr td .signin-login tr td .login {
 	width: 40%;
 	display: block;
+	border: 1px solid #294000;
 }
 #cssmenu tr td .signin-login .signin a,
 #cssmenu tr td .signin-login .login a {
