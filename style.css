@@ -297,10 +297,7 @@ h2 {
   color: #e94f31;
 }
 
-
-
 @media all and (max-width: 725px){
 	.topcontainer {height: 110px;}
 	 #cssmenu { display:none;}
 	 #dropdown {display: block;}
-}
