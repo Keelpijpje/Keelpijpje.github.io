@@ -198,12 +198,12 @@ h2 {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   position: relative;
-  display: none;
 }
 #dropdown {
   width: 250px;
   border-bottom: 4px solid #656659;
   border-radius: 3px;
+  display: none;
 }
 #dropdown a {
   line-height: 1.3;
