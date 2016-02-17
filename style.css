@@ -179,38 +179,127 @@ h2 {
 	text-decoration: none;
 	font-weight: normal;
 }
-.topcontainer .dropdown { 
-	display: none;
-	margin-top: -15px;
-	margin-right: 42px;
-	text-align: center;
-	padding: 0px;
+/*dropdown menu*/
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
+@charset "UTF-8";
+/* Base Styles */
+#dropdown,
+#dropdown ul,
+#dropdown li,
+#dropdown a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  font-weight: normal;
+  text-decoration: none;
+  line-height: 1;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  position: relative;
+  display: none;
+}
+#dropdown {
+  width: 250px;
+  border-bottom: 4px solid #656659;
+  border-radius: 3px;
+}
+#dropdown a {
+  line-height: 1.3;
+}
+#dropdown > ul > li:first-child {
+  background: #66665e;
+  border: 1px solid #45463d;
+  border-radius: 3px 3px 0 0;
+}
+#dropdown > ul > li:first-child > a {
+  padding: 15px 10px;
+  background: #000;
+  border: none;
+  border-top: 1px solid #818176;
+  border-radius: 3px 3px 0 0;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+  text-shadow: 0 -1px 1px #000000;
+}
+#dropdown > ul > li:first-child > a > span {
+  padding: 0;
+}
+#dropdown > ul > li:first-child:hover {
+  background: #66665e;
+}
+#dropdown > ul > li {
+  background: #e94f31;
+}
+#dropdown > ul > li:hover {
+  background: #e84323;
+}
+#dropdown > ul > li > a {
+  font-size: 14px;
+  display: block;
+  background: #000;
+  color: #fff;
+  border: 1px solid #ba2f14;
+  border-top: none;
+  text-shadow: 0 -1px 1px #751d0c;
+}
+#dropdown > ul > li > a > span {
+  display: block;
+  padding: 12px 10px;
+  border-radius: 4px;
+}
+#dropdown > ul > li > a:hover {
+  text-decoration: none;
+}
+#dropdown > ul > li.active {
+  border-bottom: none;
+}
+#dropdown > ul > li.has-sub > a span {
+  background: url(images/icon_plus.png) 96% center no-repeat;
+}
+#dropdown > ul > li.has-sub.active > a span {
+  background: url(images/icon_minus.png) 96% center no-repeat;
+}
+/* Sub menu */
+#dropdown ul ul {
+  display: none;
+  background: #fff;
+  border-right: 1px solid #a2a194;
+  border-left: 1px solid #a2a194;
+}
+#dropdown ul ul li {
+  padding: 0;
+  border-bottom: 1px solid #d4d4d4;
+  border-top: none;
+  background: #f7f7f7;
+}
+#dropdown ul ul li:last-child {
+  border-bottom: none;
+}
+#dropdown ul ul a {
+  padding: 10px 10px 10px 25px;
+  display: block;
+  color: #676767;
+  font-size: 12px;
+  font-weight: normal;
+}
+#dropdown ul ul a:before {
+  content: "Â»";
+  position: absolute;
+  left: 10px;
+  color: #e94f31;
+}
+#dropdown ul ul a:hover {
+  color: #e94f31;
 }
 
-.topcontainer .dropdown a {
-	color: orange;
-}
-.topcontainer .dropdown a:hover{
-	color: yellow;
-}
 
-.topcontainer .dropdown-content {
-	display: none;
-	background-color: white;
-	color: gray;
-	max-width: 100px;
-	box-shadow: 3px 3px 0px 0px;
-	box-shadow-color: black;
-	padding: 10px;
-	margin-left: 42%;
-}
-
-.topcontainer .dropdown a:hover .dropdown-content {
-	display: list-item;
-}
 
 @media all and (max-width: 725px){
 	.topcontainer {height: 110px;}
 	 #cssmenu { display:none;}
-	.topcontainer .dropdown {display: block;}
+	 #dropdown {display: block;}
 }
