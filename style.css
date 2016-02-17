@@ -9,12 +9,8 @@ body {
 h1{
 	text-align: center;
 }
-h1:link {
-	color:white;
-}
-h1:visited {
-	color:white;
-}
+
+
 h2 {
 	text-align: center;
 }
