@@ -181,7 +181,39 @@ h2 {
 	font-weight: normal;
 }
 
+}
+.topcontainer .dropdown { 
+	display: none;
+	margin-top: -15px;
+	margin-right: 42px;
+	text-align: center;
+	padding: 0px;
+}
+
+.topcontainer .dropdown a {
+	color: orange;
+}
+.topcontainer .dropdown a:hover{
+	color: yellow;
+}
+
+.topcontainer .dropdown-content {
+	display: none;
+	background-color: white;
+	color: gray;
+	max-width: 100px;
+	box-shadow: 3px 3px 0px 0px;
+	box-shadow-color: black;
+	padding: 10px;
+	margin-left: 42%;
+}
+
+.topcontainer .dropdown a:hover .dropdown-content {
+	display: list-item;
+}
+
 @media all and (max-width: 725px){
 	.topcontainer {height: 110px;}
 	 #cssmenu { display:none;}
-	 .topcontainer .dropdown {display: block;}
+	.topcontainer .dropdown {display: block;}
+}
