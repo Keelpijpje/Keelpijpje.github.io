@@ -79,7 +79,7 @@ h2 {
 	z-index: 0;
 }
 
-.topcontainer h1 {
+.topcontainer h1 a {
 	color: white;
 	text-decoration: underline;
 	text-align: center;
