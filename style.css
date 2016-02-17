@@ -201,8 +201,8 @@ h2 {
   position: relative;
 }
 #dropdown {
-  width: 250px;
-  border-bottom: 4px solid #656659;
+  width: 100px;
+  border-bottom: 2px solid #656659;
   border-radius: 3px;
   display: none;
 }
@@ -259,10 +259,11 @@ h2 {
   border-bottom: none;
 }
 #dropdown > ul > li.has-sub > a span {
-  background: url(images/icon_plus.png) 96% center no-repeat;
+  background: #7ab900;
 }
 #dropdown > ul > li.has-sub.active > a span {
-  background: url(images/icon_minus.png) 96% center no-repeat;
+  background: #7ab900;
+  text-decoration: bold;
 }
 /* Sub menu */
 #dropdown ul ul {
