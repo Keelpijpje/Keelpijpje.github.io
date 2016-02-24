@@ -74,8 +74,8 @@ h2 {
 	height: 110px;
 	left: 0%;
 	right: 0%;
-	background-color: #2E3979;
-	background-image:url("");
+	background-image:url("https://cloud.githubusercontent.com/assets/17159374/13284782/d8acef0e-daf6-11e5-8336-8acdc91a93a1.jpg");
+	background-repeat: no-repeat;
 	position: absolute;
 	color: white;
 	z-index: 0;
