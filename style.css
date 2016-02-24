@@ -79,7 +79,9 @@ h2 {
 	color: white;
 	z-index: 0;
 	border-bottom: 0;
-	border: 11px solid #0D004D;
+	border-left: 11px solid #0D004D;
+	border-right: 12px solid #0D004D;
+	border-top: 11px solid #0D004D;;
 }
 
 .topcontainer h1 a {
