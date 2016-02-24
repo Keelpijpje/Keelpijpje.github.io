@@ -62,6 +62,7 @@ h2 {
 	max-width: 1000px;
 	height: 100%;
 	background-image:url("https://cloud.githubusercontent.com/assets/17159374/13173446/d0e3f562-d6fd-11e5-8e64-c4e1f885ddd3.png");
+	background-repeat: no-repeat;
 	color: white;
 	z-index: -1;
 }
