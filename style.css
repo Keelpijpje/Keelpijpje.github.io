@@ -78,6 +78,8 @@ h2 {
 	position: absolute;
 	color: white;
 	z-index: 0;
+	border-bottom: 0;
+	border: 11px solid #0D004D;
 }
 
 .topcontainer h1 a {
