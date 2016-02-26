@@ -68,8 +68,7 @@ h2 {
 }
 
 .topcontainer {
-	margin: 0 auto;
-	margin-top:-1%;
+	margin: 0;
 	max-width: 1000px;
 	height: 110px;
 	left: 0%;
