@@ -61,7 +61,7 @@ h2 {
 	right: 0%;
 	max-width: 1000px;
 	height: 100%;
-	background-image:url("https://cloud.githubusercontent.com/assets/17199287/13285566/b205c51a-dafb-11e5-95ad-1ceae1215e5b.png");
+	background-image:url("https://cloud.githubusercontent.com/assets/17159374/13349345/7b487912-dc79-11e5-9dbe-2c7c4622fca3.jpg");
 	background-repeat: no-repeat;
 	color: white;
 	z-index: -1;
@@ -69,7 +69,6 @@ h2 {
 
 .topcontainer {
 	margin: 0 auto;
-	margin-top: -1%;
 	max-width: 977px;
 	height: 99px;
 	left: 0%;
