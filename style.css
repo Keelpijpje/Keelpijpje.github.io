@@ -219,6 +219,7 @@ h2 {
 
 #dropdownmenu > ul > li:first-child > a {
 	display: block;
+	float: center;
 }
 #dropdownmenu > ul > li:first-child > a:hover {
 	display: block;
