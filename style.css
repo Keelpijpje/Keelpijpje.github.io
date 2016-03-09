@@ -187,39 +187,86 @@ h2 {
 	text-decoration: none;
 	font-weight: normal;
 }
-
-.topcontainer .dropdown { 
-	display: none;
-	margin-top: -15px;
-	margin-right: 42px;
-	text-align: center;
-	padding: 0px;
+/* dropdown menu */
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
+@charset "UTF-8";
+/* Base Styles */
+#dropdownmenu,
+#dropdownmenu ul,
+#dropdownmenu li,
+#dropdownmenu a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  font-weight: normal;
+  text-decoration: none;
+  line-height: 1;
+  font-size: 14px;
+  position: relative;
+}
+#dropdownmenu {
+  max-width: 100px;
+  display: none;
+  margin-top: -15px;
+  margin-right: 42px;
+  text-align: center;
+  padding: 0px;
+}
+#dropdownmenu a {
+  line-height: 1.3;
 }
 
-.topcontainer .dropdown a {
-	color: orange;
+#dropdownmenu > ul > li:first-child > a {
+	display: block;
 }
-.topcontainer .dropdown a:hover{
-	color: yellow;
+#dropdownmenu > ul > li:first-child > a:hover {
+	display: block;
 }
-
-.topcontainer .dropdown-content {
-	display: none;
-	background-color: white;
-	color: gray;
-	max-width: 100px;
-	box-shadow: 3px 3px 0px 0px;
-	box-shadow-color: black;
-	padding: 10px;
-	margin-left: 42%;
+#dropdownmenu > ul > li.active > a {
+  border-bottom: 1px solid #7ab900;
 }
-
-.topcontainer .dropdown a:hover .dropdown-content {
-	display: list-item;
+/* Sub menu */
+#dropdownmenu ul ul {
+  display: none;
+  background: #34342C;
+  border-right: 1px solid #7ab900;
+  border-left: 1px solid #7ab900;
+}
+#dropdownmenu ul ul li {
+  padding: 0;
+  border-bottom: 1px solid #7ab900;
+  border-top: none;
+}
+#dropdownmenu ul ul a {
+  padding: 10px 10px 10px 25px;
+  display: block;
+  color: #A79787;
+  font-size: 12px;
+  font-weight: normal;
+}
+#dropdownmenu ul ul a:before {
+  content: "Â»";
+  position: absolute;
+  left: 10px;
+  color: #A79787;
+}	
+#dropdownmenu ul ul a:hover,
+#dropdownmenu ul ul li:active > a {
+  color: #7ab900;
+	border-bottom: 2px solid #7ab900;
+	background: #66665e;
+}
+#dropdownmenu ul ul li:hover a:before {
+  content: "Â»";
+  position: absolute;
+  left: 10px;
+  color: #7ab900;
 }
 
 @media all and (max-width: 725px){
 	.topcontainer {height: 110px;}
 	 #cssmenu { display:none;}
-	.topcontainer .dropdown {display: block;}
+	#dropdownmenu {display: block;}
 }
