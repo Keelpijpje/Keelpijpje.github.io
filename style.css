@@ -210,7 +210,8 @@ h2 {
   display: none;
   max-width: 100px;
   padding: 0px;
-  margin-left: -1px;
+  margin-left: 5px;
+  margin-bottom: -2px;
 }
 #dropdownmenu a {
   line-height: 1.3;
@@ -218,9 +219,6 @@ h2 {
 
 #dropdownmenu > ul > li:first-child > a {
 	display: block;
-}
-#dropdownmenu > ul > li:first-child > a > span {
-	text-align: center;
 }
 #dropdownmenu > ul > li.active > a {
   border-bottom: 1px solid #7ab900;
