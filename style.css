@@ -241,7 +241,7 @@ h2 {
   font-weight: normal;
 }
 #dropdownmenu ul ul a:before {
-  content: "Â»";
+  content: "»";
   position: absolute;
   left: 10px;
   color: #A79787;
@@ -253,7 +253,7 @@ h2 {
 	background: #66665e;
 }
 #dropdownmenu ul ul li:hover a:before {
-  content: "Â»";
+  content: "»";
   position: absolute;
   left: 10px;
   color: #7ab900;
