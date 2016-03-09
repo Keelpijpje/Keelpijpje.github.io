@@ -207,8 +207,8 @@ h2 {
   position: relative;
 }
 #dropdownmenu {
-  max-width: 100px;
   display: none;
+  max-width: 100px;
   margin-top: -15px;
   margin-right: 42px;
   text-align: center;
@@ -268,5 +268,5 @@ h2 {
 @media all and (max-width: 725px){
 	.topcontainer {height: 110px;}
 	 #cssmenu { display:none;}
-	#dropdownmenu {display: block;}
+	 #dropdownmenu {display: block;}
 }
