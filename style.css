@@ -219,10 +219,9 @@ h2 {
 
 #dropdownmenu > ul > li:first-child > a {
 	display: block;
-	float: center;
 }
-#dropdownmenu > ul > li:first-child > a:hover {
-	display: block;
+#dropdownmenu > ul > li:first-child > a > span {
+	text-align: center;
 }
 #dropdownmenu > ul > li.active > a {
   border-bottom: 1px solid #7ab900;
