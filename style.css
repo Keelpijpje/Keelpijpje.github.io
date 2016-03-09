@@ -209,9 +209,6 @@ h2 {
 #dropdownmenu {
   display: none;
   max-width: 100px;
-  margin-top: -15px;
-  margin-right: 42px;
-  text-align: center;
   padding: 0px;
 }
 #dropdownmenu a {
