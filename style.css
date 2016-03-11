@@ -62,7 +62,7 @@ h2 {
 	max-width: 978px;
 	height: 100%;
 	/*background-image:url("https://cloud.githubusercontent.com/assets/17159374/13349876/cb660510-dc7c-11e5-9d1b-313e6e154b04.jpg");*/
-	border: 11px solid #0D004D;
+	border: -11px solid #0D004D;
 	background:grey;
 	/*background-repeat: no-repeat;*/
 	color: white;
