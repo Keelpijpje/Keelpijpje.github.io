@@ -260,7 +260,7 @@ h2 {
   color: #7ab900;
 }
 
-@media all and (max-width: 725px){
+@media all and (max-width: 1279px){
 	.topcontainer {height: 110px;}
 	 #cssmenu { display:none;}
 	 #dropdownmenu {display: block;}
