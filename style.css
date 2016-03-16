@@ -264,52 +264,52 @@ h2 {
 	 #cssmenu { display:none;}
 	 #dropdownmenu {display: block;}
 }
-@media (max-width: 799px) {
+@media all and (max-width: 799px) {
   body {
     background-image: image-url("https://cloud.githubusercontent.com/assets/17199287/13812216/1cf44718-eb7b-11e5-9fdc-d934200f8b40.jpg");
   }
 }
-@media (min-width: 800px) and (max-width: 1023px) {
+@media all and (min-width: 800px) and (max-width: 1023px) {
   body {
     background-image: image-url("https://cloud.githubusercontent.com/assets/17199287/13812233/450c2e6e-eb7b-11e5-9a1c-73968750480a.jpg");
   }
 }
-@media (min-width: 1024px) and (max-width: 1107px) {
+@media all and (min-width: 1024px) and (max-width: 1107px) {
   body {
     background-image: image-url("https://cloud.githubusercontent.com/assets/17199287/13812248/5e66cdb0-eb7b-11e5-9646-a7a0d54ffea1.jpg");
   }
 }
-@media (min-width: 1108px) and (max-width: 1151px) {
+@media all and (min-width: 1108px) and (max-width: 1151px) {
   body {
     background-image: image-url("https://cloud.githubusercontent.com/assets/17199287/13284983/2c2b9666-daf8-11e5-9fc3-dff92c6aea83.jpg");
   }
 }
-@media (min-width: 1152px) and (max-width: 1279px) {
+@media all and (min-width: 1152px) and (max-width: 1279px) {
   body {
     background-image: image-url("https://cloud.githubusercontent.com/assets/17199287/13812261/7970a09a-eb7b-11e5-8c52-226f4a82196f.jpg");
   }
 }
-@media (min-width: 1280px) and (max-width: 1399px) {
+@media all and (min-width: 1280px) and (max-width: 1399px) {
   body {
     background-image: image-url("https://cloud.githubusercontent.com/assets/17199287/13812278/932fa7b0-eb7b-11e5-909b-cbd01e94d430.jpg");
   }
 }
-@media (min-width: 1400px) and (max-width: 1599px) {
+@media all and (min-width: 1400px) and (max-width: 1599px) {
   body {
     background-image: image-url("https://cloud.githubusercontent.com/assets/17199287/13812397/2e3803ec-eb7c-11e5-9f6c-0d7b824499dc.jpg");
   }
 }
-@media (min-width: 1600px) and (max-width: 1919px) {
+@media all and (min-width: 1600px) and (max-width: 1919px) {
   body {
     background-image: image-url("https://cloud.githubusercontent.com/assets/17159374/13812391/21d893fa-eb7c-11e5-822c-d4a2ac6a3e9a.jpg");
   }
 }
-@media (min-width: 1920px) and (max-width: 2047px) {
+@media all and (min-width: 1920px) and (max-width: 2047px) {
   body {
     background-image: image-url("https://cloud.githubusercontent.com/assets/17159374/13812396/2ce77298-eb7c-11e5-906e-dc40167e6de6.jpg");
   }
 }
-@media (min-width: 2048px) {
+@media all and (min-width: 2048px) {
   body {
     background-image: image-url("https://cloud.githubusercontent.com/assets/17199287/13812460/87df521a-eb7c-11e5-8eff-f40f1072ba6e.jpg");
   }
