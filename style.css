@@ -294,6 +294,8 @@ h2 {
   body {
     background-image: url("https://cloud.githubusercontent.com/assets/17199287/13812278/932fa7b0-eb7b-11e5-909b-cbd01e94d430.jpg");
   }
+  .container {width: 700px;}
+  .topcontainer {width: 700px;}
 }
 @media (min-width: 1400px) and (max-width: 1599px) {
   body {
