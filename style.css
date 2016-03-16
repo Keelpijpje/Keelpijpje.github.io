@@ -267,8 +267,8 @@ h2 {
 }
 @media (max-width: 799px) {
   body {background-image: url("https://cloud.githubusercontent.com/assets/17199287/13812216/1cf44718-eb7b-11e5-9fdc-d934200f8b40.jpg");}
-    .container {max-width: 400px;}
-    .topcontainer {max-width: 400px;}
+    .container {width: 400px;}
+    .topcontainer {width: 400px;}
 }
 @media (min-width: 800px) and (max-width: 1023px) {
   body {background-image: url("https://cloud.githubusercontent.com/assets/17199287/13812233/450c2e6e-eb7b-11e5-9a1c-73968750480a.jpg");}
@@ -296,22 +296,22 @@ h2 {
   .topcontainer {width: 700px;}
 }
 @media (min-width: 1400px) and (max-width: 1599px) {
-  body {
-    background-image: url("https://cloud.githubusercontent.com/assets/17199287/13812397/2e3803ec-eb7c-11e5-9f6c-0d7b824499dc.jpg");
-  }
+  body {background-image: url("https://cloud.githubusercontent.com/assets/17199287/13812397/2e3803ec-eb7c-11e5-9f6c-0d7b824499dc.jpg");}
+  .container {width: 750px;}
+  .topcontainer {width: 750px;}
 }
 @media (min-width: 1600px) and (max-width: 1919px) {
-  body {
-    background-image: url("https://cloud.githubusercontent.com/assets/17159374/13812391/21d893fa-eb7c-11e5-822c-d4a2ac6a3e9a.jpg");
-  }
+  body {background-image: url("https://cloud.githubusercontent.com/assets/17159374/13812391/21d893fa-eb7c-11e5-822c-d4a2ac6a3e9a.jpg");}
+  .container {width: 800px;}
+  .topcontainer {width: 800px;}
 }
 @media (min-width: 1920px) and (max-width: 2047px) {
-  body {
-    background-image: url("https://cloud.githubusercontent.com/assets/17159374/13812396/2ce77298-eb7c-11e5-906e-dc40167e6de6.jpg");
-  }
+  body {background-image: url("https://cloud.githubusercontent.com/assets/17159374/13812396/2ce77298-eb7c-11e5-906e-dc40167e6de6.jpg");}
+  .container {width: 850px;}
+  .topcontainer {width: 850px;}
 }
 @media (min-width: 2048px) {
-  body {
-    background-image: url("https://cloud.githubusercontent.com/assets/17199287/13812460/87df521a-eb7c-11e5-8eff-f40f1072ba6e.jpg");
-  }
+  body {background-image: url("https://cloud.githubusercontent.com/assets/17199287/13812460/87df521a-eb7c-11e5-8eff-f40f1072ba6e.jpg");}
+  .container {width: 900px;}
+  .topcontainer {width: 900px;}
 }
