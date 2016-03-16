@@ -260,7 +260,7 @@ h2 {
   color: #7ab900;
 }
 
-@media all and (max-width: 1279px){
+@media all and (max-width: 1279px) {
 	.topcontainer {height: 110px;}
 	 #cssmenu { display:none;}
 	 #dropdownmenu {display: block;}
@@ -281,9 +281,9 @@ h2 {
   }
 }
 @media (min-width: 1108px) and (max-width: 1151px) {
-  body {
-    background-image: url("https://cloud.githubusercontent.com/assets/17199287/13284983/2c2b9666-daf8-11e5-9fc3-dff92c6aea83.jpg");
-  }
+  body {background-image: url("https://cloud.githubusercontent.com/assets/17199287/13284983/2c2b9666-daf8-11e5-9fc3-dff92c6aea83.jpg");}
+  .container {width: 600px;}
+  .topcontainer {width: 600px;}
 }
 @media (min-width: 1152px) and (max-width: 1279px) {
   body {background-image: url("https://cloud.githubusercontent.com/assets/17199287/13812261/7970a09a-eb7b-11e5-8c52-226f4a82196f.jpg");}
