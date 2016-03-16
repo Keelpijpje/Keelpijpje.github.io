@@ -17,7 +17,7 @@ h2 {
 #formwrap {
 	position: absolute;
 	width: 100%;
-	top: 115px;
+	top: 125px;
 	text-align: center;
 }
 
@@ -59,7 +59,7 @@ h2 {
 	left: 0%; 
 	right: 0%;
 	max-width: 978px;
-	min-height: 420px;
+	height: 100%;
 	/*background-image:url("https://cloud.githubusercontent.com/assets/17159374/13349876/cb660510-dc7c-11e5-9d1b-313e6e154b04.jpg");*/
 	border-left: 11px solid #0D004D;
 	border-right:11px solid #0D004D;
@@ -269,11 +269,11 @@ h2 {
     .container {width: 100%; 
     	border-left: 0;
 	border-right: 0;
+	min-height: 420px;
     }
     .topcontainer {width: 100%;
     	border-left: 0;
 	border-right: 0;
-	border-top: 0;
     }
 }
 @media (min-width: 651px) and (max-width: 799px) {
