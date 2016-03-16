@@ -265,7 +265,12 @@ h2 {
 	 #cssmenu { display:none;}
 	 #dropdownmenu {display: block;}
 }
-@media (max-width: 799px) {
+@media (max-width: 650px){
+  body {background-image: url("https://cloud.githubusercontent.com/assets/17199287/13812216/1cf44718-eb7b-11e5-9fdc-d934200f8b40.jpg");}
+    .container {width: 100%;}
+    .topcontainer {width: 100%;}
+}
+@media (min-width: 651px) and (max-width: 799px) {
   body {background-image: url("https://cloud.githubusercontent.com/assets/17199287/13812216/1cf44718-eb7b-11e5-9fdc-d934200f8b40.jpg");}
     .container {width: 400px;}
     .topcontainer {width: 400px;}
