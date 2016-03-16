@@ -1,7 +1,7 @@
 body {
 	margin:0 auto;
 	background-image:url("https://cloud.githubusercontent.com/assets/17199287/13284983/2c2b9666-daf8-11e5-9fc3-dff92c6aea83.jpg");
-	background-size: window.screen.availWidth window.screen.availHeight;
+	background-size: 100%;
 	background-repeat: no-repeat;
 	color:black;
 	background-position: static;
