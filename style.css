@@ -286,14 +286,12 @@ h2 {
   }
 }
 @media (min-width: 1152px) and (max-width: 1279px) {
-  body {
-    background-image: url("https://cloud.githubusercontent.com/assets/17199287/13812261/7970a09a-eb7b-11e5-8c52-226f4a82196f.jpg");
-  }
+  body {background-image: url("https://cloud.githubusercontent.com/assets/17199287/13812261/7970a09a-eb7b-11e5-8c52-226f4a82196f.jpg");}
+  .container {width: 650px;}
+  .topcontainer {width: 650px;}
 }
 @media (min-width: 1280px) and (max-width: 1399px) {
-  body {
-    background-image: url("https://cloud.githubusercontent.com/assets/17199287/13812278/932fa7b0-eb7b-11e5-909b-cbd01e94d430.jpg");
-  }
+  body {background-image: url("https://cloud.githubusercontent.com/assets/17199287/13812278/932fa7b0-eb7b-11e5-909b-cbd01e94d430.jpg");}
   .container {width: 700px;}
   .topcontainer {width: 700px;}
 }
