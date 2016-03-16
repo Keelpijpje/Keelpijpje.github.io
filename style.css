@@ -276,9 +276,9 @@ h2 {
   }
 }
 @media (min-width: 1024px) and (max-width: 1107px) {
-  body {
-    background-image: url("https://cloud.githubusercontent.com/assets/17199287/13812248/5e66cdb0-eb7b-11e5-9646-a7a0d54ffea1.jpg");
-  }
+  body {background-image: url("https://cloud.githubusercontent.com/assets/17199287/13812248/5e66cdb0-eb7b-11e5-9646-a7a0d54ffea1.jpg");}
+  .container {width: 500px;}
+  .topcontainer {width: 500px;}
 }
 @media (min-width: 1108px) and (max-width: 1151px) {
   body {background-image: url("https://cloud.githubusercontent.com/assets/17199287/13284983/2c2b9666-daf8-11e5-9fc3-dff92c6aea83.jpg");}
