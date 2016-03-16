@@ -266,9 +266,9 @@ h2 {
 	 #dropdownmenu {display: block;}
 }
 @media (max-width: 799px) {
-  body {
-    background-image: url("https://cloud.githubusercontent.com/assets/17199287/13812216/1cf44718-eb7b-11e5-9fdc-d934200f8b40.jpg");
-  }
+  body {background-image: url("https://cloud.githubusercontent.com/assets/17199287/13812216/1cf44718-eb7b-11e5-9fdc-d934200f8b40.jpg");}
+    .container {max-width: 400px;}
+    .topcontainer {max-width: 400px;}
 }
 @media (min-width: 800px) and (max-width: 1023px) {
   body {background-image: url("https://cloud.githubusercontent.com/assets/17199287/13812233/450c2e6e-eb7b-11e5-9a1c-73968750480a.jpg");}
