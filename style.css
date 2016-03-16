@@ -1,6 +1,7 @@
 body {
 	margin:0 auto;
 	background-repeat: no-repeat;
+	background-size: 100%;
 	color:black;
 	background-position: static;
 }
