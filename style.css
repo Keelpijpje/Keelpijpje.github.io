@@ -114,7 +114,7 @@ h2 {
   list-style-type: none;
   position: relative;
   display: block;
-  max-width: 400px;
+  max-width: 350px;
   left: 50%;
   margin-left: -160px; /*negatieve margin gelijk aan de helft van de breedte*/
   margin-right: 0;
